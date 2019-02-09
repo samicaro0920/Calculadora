@@ -30,6 +30,11 @@ public class Calculadora2019_1 {
         return ans;
     }
     
+    public int multiplicar(int v,int b){
+        ans=v*b;
+        return ans;
+    }
+    
     public int sustraer(int v){
         ans=ans-v;
         return ans;
@@ -43,7 +48,7 @@ public class Calculadora2019_1 {
         ans=0;
     }
     
-    public int dividir(int a, int b){
+    public float dividir(int a, int b){
         if (b==0){
             throw new ArithmeticException("no se puede dividir por cero");
         }
