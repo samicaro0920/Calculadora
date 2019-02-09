@@ -55,5 +55,14 @@ public class Calculadora2019_1 {
         ans=a/b;
         return ans;
     }
+    
+    public int potencia (int b,int e){
+    ans=1;
+    for (int i=0; i< e;i++){
+        
+        ans=ans*b;
+    }
+    return ans;
+}
 }
 
