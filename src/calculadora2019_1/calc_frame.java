@@ -215,7 +215,7 @@ public class calc_frame extends javax.swing.JFrame {
                 multiplicarActionPerformed(evt);
             }
         });
-        getContentPane().add(multiplicar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, -1, -1));
+        getContentPane().add(multiplicar, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 140, 100, -1));
 
         resultado.setEditable(false);
         resultado.setBackground(new java.awt.Color(255, 255, 255));
